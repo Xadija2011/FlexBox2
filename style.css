@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: auto;
+}
+.firstbox{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(199, 185, 204);
+    padding-top: 3vh;
+    
+    display: flex;
+    justify-content: center;
+}.secondbox{
+    height: 95vh;   
+    width:70%;
+    background-color: white;
+    padding-top: 7vh;
+    padding-left: 10%;
+    
+}
+.first4boxs{
+    display: flex;
+    margin-bottom: 25px;
+}
+.Box1{
+ height: 150px;
+ width: 150px;
+ background-color: rgb(183, 51, 236); 
+ border-radius: 5px;
+ border: 1px solid black;
+ margin-right: 15px;
+ padding: 4px;
+ display: flex;
+}
+.inbox1box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+    
+}
+.inbox1box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox1box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.Box2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    padding: 4px;
+}
+.inbox2box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+}
+.inbox2box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+}
+.inbox2box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.Box3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    padding-top: 2px;
+}
+.inbox3box-1-2-3{
+    display: flex;
+    justify-content: space-around;
+}
+.inbox3box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+    
+    
+}
+.inbox3box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    
+}
+.inbox3box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+   
+}
+.inbox3box4{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    
+}
+.inbox3box5{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-left: 1px;
+}
+.Box4{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    
+}
+.inbox4box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.inbox4box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.inbox4box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    
+}
+.second4boxs{
+    display: flex;
+    margin-bottom: 25px;
+}
+.Box5{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    padding: 4px;
+    display: flex;
+}
+.inbox5box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox5box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox5box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.Box6{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    padding: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+.inbox6box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox6box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox6box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    
+}
+.Box7{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+.inbox7box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-left: 4px;
+}
+.inbox7box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-left: 4px;
+}
+
+.inbox7box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-left: 4px;
+}
+.Box8{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+   
+}
+.inbox8box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.inbox8box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.inbox8box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.third4boxs{
+    display: flex;
+    margin-bottom: 25px;
+}
+.Box9{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    padding: 4px;
+    display: flex;
+}
+.inbox9box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox9box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox9box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.Box10{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    padding: 4px;
+    align-items: end;
+    display: flex;
+}
+.inbox10box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox10box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox10box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.Box11{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.inbox11box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox11box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.inbox11box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 4px ;
+}
+.Box12{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(183, 51, 236); 
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+.inbox12box1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.inbox12box2{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.inbox12box3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+
